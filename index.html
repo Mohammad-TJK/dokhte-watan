@@ -667,40 +667,21 @@ footer { background:var(--text); padding:3.5rem 2rem 2rem; }
 </nav>
 
 <!-- ─── HERO ─── -->
-<section id="hero">
-  <div class="hero-blob hero-blob-1"></div>
-  <div class="hero-blob hero-blob-2"></div>
-  <div class="hero-blob hero-blob-3"></div>
-  <div class="hero-flowers">
-    <div class="hero-flower hf1">🌸</div>
-    <div class="hero-flower hf2">🌺</div>
-    <div class="hero-flower hf3">🌷</div>
-    <div class="hero-flower hf4">🌸</div>
-    <div class="hero-flower hf5">✿</div>
-    <div class="hero-flower hf6">🌺</div>
-  </div>
-  <div style="display:flex;align-items:center;justify-content:center;gap:4rem;max-width:1100px;margin:0 auto;padding:0 2rem;position:relative;z-index:2;width:100%;">
-    <div class="hero-content" style="flex:1;text-align:left;">
-      <div class="hero-tag">Tajik Persian · Khorasan, Afghanistan</div>
-      <h1 class="hero-title">Tajikana</h1>
-      <p class="hero-farsi">تاجیکانه — Reviving What Is Ours</p>
-      <div class="hero-divider" style="justify-content:flex-start;">
-        <div class="dl"></div>
-        <span style="font-size:1.2rem">🌸</span>
-        <div class="dl r"></div>
-      </div>
-      <p class="hero-desc">Handmade Tajik Persian dresses rooted in the culture of Khorasan — so Tajik girls can wear their own culture with pride again.</p>
-      <div class="hero-cta">
-        <a href="#shop" class="btn-pink">Shop the Collection</a>
-        <a href="#about" class="btn-outline-pink">Our Story</a>
-      </div>
-    </div>
-    <div style="flex:0 0 400px;position:relative;animation:rise 1s .4s both;">
-      <img src="https://i.ibb.co/2Yf6t4m6/Screenshot-2026-03-10-120424.png"
-           alt="Tajikana dress"
-           style="width:100%;border-radius:24px;display:block;box-shadow:0 20px 80px rgba(155,34,100,.6),0 0 0 3px rgba(155,34,100,.4);border:2px solid rgba(155,34,100,.5);"
-      />
-      <div style="position:absolute;inset:-25px;border-radius:35px;background:radial-gradient(ellipse at center,rgba(155,34,100,.3),transparent 70%);z-index:-1;pointer-events:none;"></div>
+<section id="hero" style="min-height:100vh;position:relative;display:flex;align-items:center;justify-content:flex-start;padding-top:100px;overflow:hidden;background:#0d0008;">
+  <!-- bg image -->
+  <div style="position:absolute;inset:0;background-image:url('https://i.ibb.co/2Yf6t4m6/Screenshot-2026-03-10-120424.png');background-size:cover;background-position:center right;background-repeat:no-repeat;opacity:0.45;z-index:0;"></div>
+  <!-- overlay -->
+  <div style="position:absolute;inset:0;z-index:1;background:linear-gradient(105deg,rgba(13,0,8,0.97) 0%,rgba(13,0,8,0.88) 38%,rgba(13,0,8,0.4) 65%,rgba(13,0,8,0.05) 100%);"></div>
+  <!-- text -->
+  <div style="position:relative;z-index:2;max-width:600px;padding:0 5vw;" class="hero-content">
+    <div class="hero-tag" style="animation:rise 1s .1s both;">Tajik Persian · Khorasan, Afghanistan</div>
+    <h1 class="hero-title" style="animation:rise 1s .25s both;">Tajikana</h1>
+    <p class="hero-farsi" style="animation:rise 1s .4s both;">&#x062A;&#x0627;&#x062C;&#x06CC;&#x06A9;&#x0627;&#x0646;&#x0647; — Reviving What Is Ours</p>
+    <div class="hero-divider" style="justify-content:flex-start;animation:rise 1s .5s both;"><div class="dl"></div><div class="dl r"></div></div>
+    <p class="hero-desc" style="animation:rise 1s .6s both;">Handmade Tajik Persian dresses rooted in the culture of Khorasan — so Tajik girls can wear their own culture with pride again.</p>
+    <div class="hero-cta" style="animation:rise 1s .75s both;">
+      <a href="#shop" class="btn-pink">Shop the Collection</a>
+      <a href="#about" class="btn-outline-pink">Our Story</a>
     </div>
   </div>
   <div class="scroll-hint"><span>scroll</span><div class="scroll-line"></div></div>
@@ -743,11 +724,12 @@ footer { background:var(--text); padding:3.5rem 2rem 2rem; }
       <div class="about-heart ah4">🌺</div>
     </div>
     <div class="about-text fu">
-      <span class="sec-tag">✿ Our Story</span>
-      <h2>From the Heart of <em>Khorasan</em></h2>
-      <p>Tajikana — "Daughter of the Homeland" — is a one-woman effort to keep the living culture of the Tajiks of Khorasan visible, wearable, and celebrated.</p>
-      <p>Every piece is handmade. The embroidery, the cuts, the colors — all rooted in the traditions of Afghan Tajiks, a people whose culture is too often overlooked or erased.</p>
-      <p>This isn't just fashion. It's resistance, memory, and love — worn on the body.</p>
+      <span class="sec-tag">Our Story</span>
+      <h2>The Story Behind <em>Tajikana</em></h2>
+      <p>As a Tajik Persian girl from Khorasan, Afghanistan, my culture means everything to me. My Tajik identity is something I hold onto tightly, because it carries the history, strength, and beauty of my people.</p>
+      <p>In Afghanistan, wearing traditional clothing at gatherings has always been a big part of who we are — at weddings, engagements, celebrations, and special ceremonies, women and girls once proudly wore the dress of their own culture. But over the years, I began to notice something slowly changing. Our traditional Tajik clothing started to disappear from these moments. Instead, many girls began wearing dresses from other cultures, beautiful in their own way, but not ours.</p>
+      <p>Seeing our own heritage slowly replaced in the spaces where it should shine the most made me reflect deeply on how fragile culture can become when it isn't preserved and protected.</p>
+      <p>That realization became the reason I decided to start this brand — to revive Tajikana clothing, to give Tajik Persian girls the chance to wear their own culture's dresses with pride again; at weddings, celebrations, and every moment that deserves beauty and meaning.</p>
       <div class="about-stats">
         <div class="stat"><span class="stat-num">100%</span><span class="stat-lbl">Handmade</span></div>
         <div class="stat"><span class="stat-num">Khorasan</span><span class="stat-lbl">Afghanistan</span></div>
@@ -765,9 +747,9 @@ footer { background:var(--text); padding:3.5rem 2rem 2rem; }
     <div class="sec-rule"><div class="rl"></div><div class="dot"></div><div class="rl rv"></div></div>
   </div>
   <div class="craft-grid">
-    <div class="craft-item fu"><span class="craft-icon">🧵</span><h3>Made by Hand</h3><p>Every piece is sewn, embroidered, and finished by hand. No factory, no shortcuts — just craft, patience, and love for the culture.</p></div>
-    <div class="craft-item fu"><span class="craft-icon">🌸</span><h3>Khorasan Patterns</h3><p>The embroidery, motifs, and silhouettes are drawn from Tajik Persian tradition — a visual language carried through generations of Khorasan.</p></div>
-    <div class="craft-item fu"><span class="craft-icon">🌺</span><h3>Culture, Not Costume</h3><p>Tajikana exists so Tajik girls never have to choose between fitting in and honoring where they come from. Wear your roots with pride.</p></div>
+    <div class="craft-item fu"><h3>Made by Hand</h3><p>Every piece is sewn, embroidered, and finished by hand. No factory, no shortcuts — just craft, patience, and love for the culture.</p></div>
+    <div class="craft-item fu"><h3>Khorasan Patterns</h3><p>The embroidery, motifs, and silhouettes are drawn from Tajik Persian tradition — a visual language carried through generations of Khorasan.</p></div>
+    <div class="craft-item fu"><h3>Culture, Not Costume</h3><p>Tajikana exists so Tajik girls never have to choose between fitting in and honoring where they come from. Wear your roots with pride.</p></div>
   </div>
 </section>
 
